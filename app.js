@@ -60,10 +60,10 @@ const allEmployee = []
 
         ]).then(function (response) {
 
-            if (response.choices === "Engineer") {
+            if (response.teamMember === "Engineer") {
                 newEngineer();
             }
-            else if (response.choices === "Intern") {
+            else if (response.teamMember === "Intern") {
                 newIntern();
             }
             else {
