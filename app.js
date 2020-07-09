@@ -12,7 +12,7 @@ const render = require("./lib/htmlRenderer");
 
 const allEmployee = []
 
-function allTeam(){
+
     function manager() {
 
         inquirer.prompt([
@@ -137,14 +137,17 @@ function allTeam(){
     }
 
     function completedTeam() {
-
-    const HTML = render(allEmployee);
-    fs.writeFile(outputPath, HTML, (err) => {
         console.log(`Employee log successfully generated!`);
 
-    })
-}
+    
+    fs.writeFile(outputPath, render(allEmployee), (err) => {
+        if(err){
+            return err;
+        }
+    }) ;
+
+    }
+
     manager();
-}
-allTeam();
+
 
