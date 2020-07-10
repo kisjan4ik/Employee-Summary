@@ -1,0 +1,42 @@
+body {
+    background: #d4dfe9;
+}
+ h2{
+     font-size: 2.5rem;
+ }
+
+ ul {
+    font-family: 'Courier New', Courier, monospace;
+ }
+ 
+.jumbotron {
+    background: #289045;
+    color:#d4dfe9;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 40px;
+}
+
+.text-center{
+    font-size: 3.5rem;
+    font-weight: 500;
+}
+
+.card, .employee-card {
+    margin: 10px;
+    border: 1px solid #286291;
+}
+
+.card-title{
+    color: #d4dfe9;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+
+}
+
+.card-header {
+    background: #286291;
+}
+
+.card-body {
+    background: #beddc7;
+}
