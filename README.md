@@ -47,7 +47,7 @@
 ![Screenshot_2](https://user-images.githubusercontent.com/63433561/87046933-d0906c80-c1c7-11ea-9f77-92b38880957d.PNG)
 
 ### Browser view:
-![Screenshot_3](https://user-images.githubusercontent.com/63433561/87046936-d1290300-c1c7-11ea-897f-fee7b4fac879.PNG)
+![Screenshot_3](https://user-images.githubusercontent.com/63433561/87104058-cb153f80-c224-11ea-8d74-f0ec2af9f61e.PNG)
 
 ### Tests running:
 ![Screenshot_4](https://user-images.githubusercontent.com/63433561/87046937-d1290300-c1c7-11ea-9f9c-77aeab84795b.PNG)
